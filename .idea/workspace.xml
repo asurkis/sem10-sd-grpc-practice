@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c4e6d13-337c-4b4f-a4e5-58e349c090f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru.ifmo.se.asurkis.sd/ChatServerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru.ifmo.se.asurkis.sd/MainClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru.ifmo.se.asurkis.sd/MainServer.java" afterDir="false" />
+    <list default="true" id="0c4e6d13-337c-4b4f-a4e5-58e349c090f1" name="Changes" comment="Add basic client-server">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru.ifmo.se.asurkis.sd/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chat.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/Chat.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru.ifmo.se.asurkis.sd/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru.ifmo.se.asurkis.sd/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru.ifmo.se.asurkis.sd/MainServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +43,7 @@
       <recent name="C:\Users\asurk\Documents\sd-grpc-practice\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainClient">
+  <component name="RunManager" selected="Application.MainServer">
     <configuration name="MainClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ifmo.se.asurkis.sd.MainClient" />
       <module name="sd-grpc-practice" />
@@ -226,6 +220,18 @@
       <option name="presentableId" value="Default" />
       <updated>1684168040792</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add basic client-server">
+      <created>1684170809421</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684170809421</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add basic client-server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add basic client-server" />
   </component>
 </project>

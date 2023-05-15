@@ -23,6 +23,7 @@ public class MainServer {
             }
         }
 
+        service.shutdown();
         server.shutdown();
     }
 }

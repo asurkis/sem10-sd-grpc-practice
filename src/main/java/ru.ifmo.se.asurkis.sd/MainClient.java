@@ -2,9 +2,10 @@ package ru.ifmo.se.asurkis.sd;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
-import io.grpc.StatusRuntimeException;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Iterator;
 
 public class MainClient {
