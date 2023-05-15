@@ -1,0 +1,14 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package ru.ifmo.se.asurkis.sd;
+
+message Empty {}
+
+message Message {
+  string text = 1;
+}
+
+service ChatServer {
+  rpc subscribe(Empty) returns (stream Message);
+  rpc sendMessage(Message) returns (Empty);
+}
